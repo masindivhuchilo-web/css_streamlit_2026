@@ -1,5 +1,14 @@
+import streamlit as st
+
+# Page configuration
+st.set_page_config(
+    page_title="Researcher Profile",
+    page_icon="🎓",
+    layout="centered"
+)
+
 # Title
-st.title(" Researcher Profile")
+st.title("🎓 Researcher Profile")
 
 # Subheading
 st.subheader("Masindi Vhutshilo")
@@ -19,7 +28,7 @@ to predict infectious disease dynamics**, with a specific focus on
 st.divider()
 
 # Research Topic
-st.header(" Research Topic")
+st.header("🧠 Research Topic")
 st.write("""
 **Integrating Machine Learning in Predicting Infectious Disease Dynamics
 (Focus: Hookworm Infection)**
@@ -63,4 +72,8 @@ st.write("""
 **Phone:** 071 406 2209 / 076 533 0429  
 **Institution:** University of Venda  
 """)
+
+
+
+
 
